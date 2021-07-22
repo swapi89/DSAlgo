@@ -43,6 +43,9 @@ class LinkedList{
             
         }
     }
+    /* This function is used for deleting Node from the Linked List.
+        Index is used for identifying the position of the Node to be deleted.
+    */
     deleteNode = index => {
         if(typeof index === "undefined" || index<1){
             console.log("Incorrect index");
